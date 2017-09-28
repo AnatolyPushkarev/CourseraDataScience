@@ -11,20 +11,21 @@ Here is a list:
 * Item 3
 ***
 *The text in Italics*
-_Text in bold_
+__Text in bold__
 A new repository for the data science course on coursera
 ***
 Lets see some tables
-|Header One|Header Two|Header Three|
-|:---------|:--------:|-----------:|
-|TableData1|Tabledata2|Tabledata3  |
-|TableData1|Tabledata2|Tabledata3  |
-|TableData1|Tabledata2|Tabledata3  |
-|TableData1|Tabledata2|Tabledata3  |
-|TableData1|Tabledata2|Tabledata3  |
-|TableData1|Tabledata2|Tabledata3  |
-|TableData1|Tabledata2|Tabledata3  |
-|TableData1|Tabledata2|Tabledata3  |
+
+| Header One | Header Two | Header Three |
+|:-----------|:----------:|-------------:|
+| TableData1 | Tabledata2 | Tabledata3   |
+| TableData1 | Tabledata2 | Tabledata3   |
+| TableData1 | Tabledata2 | Tabledata3   |
+| TableData1 | Tabledata2 | Tabledata3   |
+| TableData1 | Tabledata2 | Tabledata3   |
+| TableData1 | Tabledata2 | Tabledata3   |
+| TableData1 | Tabledata2 | Tabledata3   |
+| TableData1 | Tabledata2 | Tabledata3   |
 
 
 >I just can't get enough of the MarkDown, Can I?
