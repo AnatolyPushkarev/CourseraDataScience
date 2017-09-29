@@ -5,6 +5,8 @@
 ***
 Horizontal ruler
 ***
+$ Y $ $ X $
+***
 Here is a list:
 * Item 1
 * Item 2
