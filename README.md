@@ -5,7 +5,7 @@
 ***
 Horizontal ruler
 ***
-$ Y $ $ X $
+\$ Y \$ \$ X \$
 ***
 Here is a list:
 * Item 1
