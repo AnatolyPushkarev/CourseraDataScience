@@ -1,0 +1,11 @@
+my_Lame <- function(id = 1:3) {
+  
+  setwd("~/")
+  setwd("specdata")
+  
+  temp <- list.files(pattern = "*.csv")
+  
+  for (i in id) assign(temp[i], read.csv(temp[i]))  
+  
+}
+
