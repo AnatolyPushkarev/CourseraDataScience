@@ -1,9 +1,23 @@
 my_Funk <- function(x) {
-  
+# I am initialising function my_Funk that takes on one argument x
+
   setwd("my_data")
+# I am setting working directory to my_data
   
   temp <- list.files(pattern = "*.csv")
+# I store the list of the *.csv files in the vector temp
   
   for (i in x) assign(temp[i], read.csv(temp[i]))  
+# I read only specified portion of the *.csv files into the R environment
+# The portion defined by the vector x
   
 }
+
+# When I upload the function into the global environment
+# And then call it with my_Funk(1:5) - Nothing happens
+# And I also don't see any temp variables or and csv files
+
+# If I execute the part of my function one by one it works perfectly fine
+# But, it doesn't work as a whole
+
+# Can you please tell me what is wrong with the function?
