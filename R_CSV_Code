@@ -1,0 +1,9 @@
+my_Funk <- function(x) {
+  
+  setwd("my_data")
+  
+  temp <- list.files(pattern = "*.csv")
+  
+  for (i in x) assign(temp[i], read.csv(temp[i]))  
+  
+}
